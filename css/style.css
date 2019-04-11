@@ -58,7 +58,7 @@ a:link{
     display: grid;
     height: 100vh;
     width: 100vw;
-    background-image: url("/images/jokerLaughing.jpg");
+    background-image: url("/images/jokerSmileVector.jpg");
     background-size: cover;
     opacity: 0.9;
     grid-template-columns: 50% 50%;
