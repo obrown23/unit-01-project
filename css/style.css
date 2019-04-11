@@ -1,0 +1,17 @@
+/* index begins */
+/* grid template for index page */
+#indexbody{
+display: grid;
+height: 300vh;
+width: 100;
+ 
+grid-template-areas:
+"inde inde inde inde"
+"inde inde inde inde"
+"pic pic pic pic"
+"play play play play"
+}
+
+#titleH{
+
+}
