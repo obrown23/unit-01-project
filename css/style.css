@@ -1,17 +1,28 @@
 /* index begins */
 /* grid template for index page */
-#indexbody{
+.indexbody{
 display: grid;
-height: 300vh;
-width: 100;
- 
-grid-template-areas:
-"inde inde inde inde"
-"inde inde inde inde"
-"pic pic pic pic"
-"play play play play"
+height: 100vh;
+width: 100vw;
+background-image: url("/images/joker.gif");
+background-size: cover;
+grid-template-columns: 100%;
+grid-template-rows: 1fr 1fr 1fr;
 }
 
 #titleH{
+    font-size: 5.9em;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    /* position: absolute; */
+
+
+}
+
+#playBu{
+grid-column: 1;
+grid-row: 3;
+
 
 }
