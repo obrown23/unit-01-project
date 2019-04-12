@@ -45,11 +45,13 @@ a:link{
 }
 /* middle image */
 #batman{
-    background-image: url("/images/");
+    background-image: url("/images/golden-chandelier.png");
+    background-size: cover;
+    border: solid red; 
     grid-column: 1;
     grid-row: 2;
-    text-align: center;
-    background-repeat: no-repeat;
+    /* text-align: center; */
+    /* background-repeat: no-repeat;  */
 }
 
 /* index ends */
@@ -74,5 +76,12 @@ a:link{
     /* position: absolute; */
 
 
+}
+/* actual hanging figure */
+#hangMan{
+    border: solid black;
+    border: 2px;
+    width: 75px;
+    height: 200px;
 }
 
