@@ -89,7 +89,10 @@ a:link{
 /* actual hanging figure */
 #hangMan{
     border: solid green;
-    background-image: url("/images/dog5.png");
+    background-image: url("/images/dog.png");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
     grid-column: 2;
     grid-row: 3/4;
     width: 50vw;
