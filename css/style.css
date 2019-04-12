@@ -64,15 +64,15 @@ a:link{
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 34% 41%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
 }
 /* title for game */
 #titleH2{
     border: solid purple;
     color: rgb(216, 12, 12);
     font-size: 5.9em;
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: 1;
     text-align: center;
     /* position: absolute; */
@@ -82,7 +82,7 @@ a:link{
 /* home button */
 #homeButton{
     border: solid yellow;
-    grid-column: 1;
+    grid-column: span 3;
     grid-row: 2;
 
 }
@@ -91,12 +91,22 @@ a:link{
     border: solid green;
     background-image: url("/images/dog.png");
     background-repeat: no-repeat;
-    padding: 0;
     margin: 0;
-    grid-column: 2;
-    grid-row: 3/4;
-    width: 50vw;
-    height: 50vh;
+    grid-column: 3;
+    grid-row: 3;
+     width: 30vw;
+    height: 30vh;
 
+}
+/* interactive alphabet for user */
+#alphabet{
+    border: solid blue;
+    grid-column: 1;
+    grid-row: 3;
+}
+#fill-in{
+    border: solid white;
+    grid-column: span 3;
+    grid-row: 4;
 }
 
