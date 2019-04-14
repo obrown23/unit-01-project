@@ -84,11 +84,16 @@ a:link{
     border: solid yellow;
     grid-column: 1;
     grid-row: 2;
-    width: 10vw;
-    height: 10vh;
+    /* width: 10vw;
+    height: 10vh; */
 
 }
 #chandelier{
+    border: solid red;
+    background-image: url("/images/golden-chandelier.png");
+    margin: 0;
+    grid-column: 2;
+    grid-row: 2;
 
 }
 /* actual hanging figure */
@@ -99,8 +104,8 @@ a:link{
     margin: 0;
     grid-column: 2;
     grid-row: 3;
-     width: 30vw;
-    height: 30vh;
+     /* width: 30vw;
+    height: 30vh; */
 
 }
 /* interactive alphabet for user */
