@@ -17,16 +17,16 @@ let checkLetter =(answer)=>{
     }
 }
 // event listener for alphabet
-$(".alphabetView").on("click", ".letters", checkLetter)
+$("#alphabet").on("click", ".letters", checkLetter)
 
 
-$('button').click(() => {
-    event.preventDefault()
-    let input = $('input:text').val()
-    $('ol').append('<li class="strik">' + input + "</li>")
-    $('input').val('')
-}
-)
-$('ol').on("click", ".strik", () => {
-    $(event.target).css('text-decoration', 'line-through');
-});
+// $('button').click(() => {
+//     event.preventDefault()
+//     let input = $('input:text').val()
+//     $('ol').append('<li class="strik">' + input + "</li>")
+//     $('input').val('')
+// }
+// )
+// $('ol').on("click", ".strik", () => {
+//     $(event.target).css('text-decoration', 'line-through');
+// });
