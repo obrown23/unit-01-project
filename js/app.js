@@ -4,9 +4,22 @@ let questions = ["What is the name of the Gotham's psychiatric hospital/prison, 
 // hanging chndeleir
 //jQuery
 for(let i = alphabet.length - 1; i >= 0; i--){
-    $("#alphabet").prepend("<div id='letters'>" + alphabet[i] + "</div>")
+    $("#alphabet").prepend("<button class='letters'>" + alphabet[i] + "</button>")
    
 } 
+let checkLetter =(answer)=>{
+    let value = $(event.target).html()
+    console.log(value)
+    for(let z = answer.length -1 ; z >= 0; z--){
+        if(value === answer[z]){
+            return true;
+        }
+    }
+}
+// event listener for alphabet
+$(".alphabetView").on("click", ".letters", checkLetter)
+
+
 $('button').click(() => {
     event.preventDefault()
     let input = $('input:text').val()

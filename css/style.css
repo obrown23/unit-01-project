@@ -113,10 +113,19 @@ a:link{
     border: solid blue;
     grid-column: 1;
     grid-row: 3;
+    padding: 50px;
+
 }
+/* user input */
 #fill-in{
     border: solid white;
     grid-column: span 2;
     grid-row: 4;
+}
+/* editing all the letters in the alphabet  */
+.letters{
+    background-color: yellow;
+    font-size: 2.4em;
+
 }
 
