@@ -4,7 +4,7 @@ let questions = ["What is the name of the Gotham's psychiatric hospital/prison, 
 // hanging chndeleir
 //jQuery
 for(let i = alphabet.length - 1; i >= 0; i--){
-    $(".alphabetView").prepend("<p class='letters'>" + alphabet[i] + "</p>")
+    $("#alphabet").prepend("<div id='letters'>" + alphabet[i] + "</div>")
    
 } 
 $('button').click(() => {
