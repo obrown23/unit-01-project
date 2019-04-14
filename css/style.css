@@ -90,7 +90,7 @@ a:link{
 }
 #chandelier{
     border: solid red;
-    background-image: url("/images/golden-chandelier.png");
+    background-image: url("/images/chandelier.png");
     margin: 0;
     grid-column: 2;
     grid-row: 2;
