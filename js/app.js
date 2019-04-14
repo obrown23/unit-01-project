@@ -1,4 +1,5 @@
 var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+let answers =  ["arkham asylum", "penguin", "riddler", "cat woman", "bat mobile","alfred", "joker", "harley quinn", "joker", "talia al ghul"];
 
 // hanging chndeleir
 //jQuery
