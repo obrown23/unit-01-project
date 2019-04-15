@@ -91,7 +91,9 @@ a:link{
 #chandelier{
     border: solid red;
     background-image: url("/images/chandelier.png");
-    margin: 0;
+    background-size: cover;
+    width: 13vw;
+    height: 20vh; 
     grid-column: 2;
     grid-row: 2;
 
@@ -104,8 +106,8 @@ a:link{
     margin: 0;
     grid-column: 2;
     grid-row: 3;
-     /* width: 30vw;
-    height: 30vh; */
+     width: 30vw;
+    height: 30vh; 
 
 }
 /* interactive alphabet for user */
