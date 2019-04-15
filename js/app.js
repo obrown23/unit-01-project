@@ -34,3 +34,7 @@ for(let x = answers.length - 1; x >= 0; x--){
 // $('ol').on("click", ".strik", () => {
 //     $(event.target).css('text-decoration', 'line-through');
 // });
+// random answers
+function answers{
+    multipleAnswers= Math.floor(Math.random)
+}
