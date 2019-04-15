@@ -81,6 +81,7 @@ a:link{
 }
 /* home button */
 #homeButton{
+    background-image: url("/images/home .jpg");
     font-size: 1.2em;
     border: solid yellow;
     grid-column: 1;
@@ -134,7 +135,6 @@ a:link{
 }
 #questions{
 border: solid green;
-
 grid-column:  2;
 grid-row: 2;
 
