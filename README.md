@@ -1,4 +1,4 @@
-repo connected# unit-01-project
+HANGMAN
 
 Project Description- This is my version of a none traditional hangman game.
 link to deployed app on Netifly -
