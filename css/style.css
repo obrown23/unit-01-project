@@ -84,8 +84,8 @@ a:link{
     border: solid yellow;
     grid-column: 1;
     grid-row: 2;
-    /* width: 10vw;
-    height: 10vh; */
+     width: 10vw;
+    height: 10vh; 
 
 }
 /* chandelier image css */
@@ -131,8 +131,9 @@ a:link{
     font-size: 2.4em;
 
 }
-#quesions{
+#questions{
 border: solid green;
+
 grid-column:  2;
 grid-row: 2;
 
